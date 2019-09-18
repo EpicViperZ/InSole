@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+  <head>
+    <!-- Title of website -->
+    <title> InSole </title>
+    <!-- Declare Attributes -->
+    <meta charset = "utf-8">
+    <meta name = "viewport" content = "width = device-width">
+    <link rel = "stylesheet" href = "styles.css">
+    <!-- Implement Fonts -->
+    <link rel="stylesheet" href="https://use.typekit.net/uvd8pbu.css">
+    <!-- Implement Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="Favicon/favicon.ico">
+    <!-- Javascript File -->
+    <script src = "javascript.js"></script>
+    <script type ="text/javascript" src = "jquery-3.3.1.min.js"></script>
+    <script src = "flickity.pkgd.js"></script>
+    <script src = "flickity.pkgd.min.js"></script>
+    <script src = "slider.js"></script>
+  </head>
+  <body>
+    <header>
+      <!-- Navigation Bar -->
+      <nav class = "sitenavigation">
+        <a href = "index.html"><img src = "images/Logo.png" alt = "InSole"> </a>
+        <div class = "bar">
+          <p><a href = "MenShoes.html"> Men </a></p>
+          <p><a href = "WomenShoes.html"> Women </a></p>
+          <p><a href = "Consignment.html"> Consignment </a></p>
+          <p><a href = "AboutUs.html"> About Us </a></p>
+        </div>
+      </nav>
+      <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a href="MenShoes.html">Men's Shoes</a>
+          <a href="WomenShoes.html">Women's Shoes</a>
+          <a href="Consignment.html">Consignment</a>
+          <a href="AboutUs.html">About Us</a>
+        </div>
+      </div>
+      <span class="hamburger" onclick="openNav()">&#9776;</span>
+    </header>
+    <article>
+      <form name="frm" action="thankyou.html" onsubmit="return (val());">
+        <div class="formContainer">
+          <h1> Consignment Form </h1>
+          <fieldset>
+            <legend><b> Personal Information: </b></legend>
+              <label for="firstName">First name: </label>
+              <input type="text" placeholder="E.g John" name="firstname">
+              <br>
+              <label for="lastName">Last Name: </label>
+              <input type = "text" placeholder="E.g Applewood" name="lastname">
+              <br>
+              <label for="email">Email: </label>
+              <input type="text" placeholder="E.g JohnApplewood@gmail.com" name="email">
+              <br>
+          </fieldset>
+          <fieldset>
+            <legend><b> Shoe Information: </b></legend>
+              <label for="brand"> Shoe Brand: </label>
+              <input type="text" placeholder="E.g Nike" name="brand">
+              <br>
+              <label for="model"> Shoe Model: </label>
+              <input type="text" placeholder="E.g Air Max 97" name="model">
+          </fieldset>
+          <input type="submit" id="submit" value="Submit" onclick="return val();">
+        </div>
+        <script src = "javascript.js"></script>
+      </form>
+    </article>
+    <footer class ="home">
+      <p> 2019 InSole | All Pictures taken from their respective sources </p>
+    </footer>
+  </body>
+</html>

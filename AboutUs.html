@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+  <head>
+    <!-- Title of website -->
+    <title> InSole </title>
+    <!-- Declare Attributes -->
+    <meta charset = "utf-8">
+    <meta name = "viewport" content = "width = device-width">
+    <link rel = "stylesheet" href = "styles.css">
+    <!-- Implement Fonts -->
+    <link rel="stylesheet" href="https://use.typekit.net/uvd8pbu.css">
+    <!-- Implement Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="Favicon/favicon.ico">
+    <!-- Javascript File -->
+    <script src = "javascript.js"></script>
+    <script type ="text/javascript" src = "jquery-3.3.1.min.js"></script>
+    <script src = "flickity.pkgd.js"></script>
+    <script src = "flickity.pkgd.min.js"></script>
+    <script src = "slider.js"></script>
+  </head>
+  <body>
+    <header>
+      <!-- Navigation Bar -->
+      <nav class = "sitenavigation">
+        <a href = "index.html"><img src = "images/Logo.png" alt = "InSole"></a>
+        <div class = "bar">
+          <p><a href = "MenShoes.html"> Men </a></p>
+          <p><a href = "WomenShoes.html"> Women </a></p>
+          <p><a href = "Consignment.html"> Consignment </a></p>
+          <p><a href = "AboutUs.html"> About Us </a></p>
+        </div>
+      </nav>
+      <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a href="MenShoes.html">Men's Shoes</a>
+          <a href="WomenShoes.html">Women's Shoes</a>
+          <a href="Consignment.html">Consignment</a>
+          <a href="AboutUs.html">About Us</a>
+        </div>
+      </div>
+      <span class="hamburger" onclick="openNav()">&#9776;</span>
+    </header>
+    <article>
+      <h1> About Us </h1>
+      <section class = "who">
+        <img src = "images/AboutUsImg.jpg">
+        <h2> Who are we? </h2>
+        <p> We are InSole, a shoe retailer.<br>
+        Apart from being a shoe retailer however, <br>
+        we also sell second hand shoes that other customers sell to our store. </p>
+      </section>
+      <figure class = "location">
+        <h2> Where are we located? </h2>
+        <p> We are located at 89 Desker Road,<br>
+           Singapore 209611</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.777814844144!2d103.85373391523629!3d1.3085571620700633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19c7e448af87%3A0x3be22eb735c08b79!2s89+Desker+Rd%2C+Singapore+209611!5e0!3m2!1sen!2ssg!4v1550068253367" allowfullscreen></iframe>
+      </figure>
+    </article>
+    <footer class = "home">
+      <p> 2019 InSole | All Pictures taken from their respective sources </p>
+    </footer>
+  </body>
+</html>

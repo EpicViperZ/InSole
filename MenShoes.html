@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+  <head>
+    <!-- Title of website -->
+    <title> InSole </title>
+    <!-- Declare Attributes -->
+    <meta charset = "utf-8">
+    <meta name = "viewport" content = "width = device-width">
+    <link rel = "stylesheet" href = "styles.css">
+    <!-- Implement Fonts -->
+    <link rel="stylesheet" href="https://use.typekit.net/uvd8pbu.css">
+    <!-- Implement Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="Favicon/favicon.ico">
+    <!-- Javascript File -->
+    <script src = "javascript.js"></script>
+    <script type ="text/javascript" src = "jquery-3.3.1.min.js"></script>
+    <script src = "flickity.pkgd.js"></script>
+    <script src = "flickity.pkgd.min.js"></script>
+    <script src = "slider.js"></script>
+  </head>
+  <body>
+    <header>
+      <!-- Navigation Bar -->
+      <nav class = "sitenavigation">
+        <a href = "index.html"><img src = "images/Logo.png" alt = "InSole"></a>
+        <div class = "bar">
+          <p><a href = "MenShoes.html"> Men </a></p>
+          <p><a href = "WomenShoes.html"> Women </a></p>
+          <p><a href = "Consignment.html"> Consignment </a></p>
+          <p><a href = "AboutUs.html"> About Us </a></p>
+        </div>
+      </nav>
+      <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a href="MenShoes.html">Men's Shoes</a>
+          <a href="WomenShoes.html">Women's Shoes</a>
+          <a href="Consignment.html">Consignment</a>
+          <a href="AboutUs.html">About Us</a>
+        </div>
+      </div>
+      <span class="hamburger" onclick="openNav()">&#9776;</span>
+    </header>
+    <article>
+        <img src = "images/Showcase.jpg">
+        <div class="shoeContainer">
+          <h1> Men's Shoes </h1>
+          <div class="grid-container">
+            <div class="grid-item">
+              <h1> Adidas Tubular 13 </h1>
+              <img src="images/Shoe1.png" alt = "Adidas Tubular 13">
+              <h2> $250 </h2>
+              <h2> Condition: New </h2>
+            </div>
+            <div class="grid-item">
+              <h1> FJ Sports Spec</h1>
+              <img src="images/Shoe2.png" alt = "FJ Sports Spec">
+              <h2> $200 </h2>
+              <h2> Condition: Used </h2>
+            </div>
+            <div class="grid-item">
+              <h1> King Aurora </h1>
+              <img src="images/Shoe3.png" alt = "King Aurora">
+              <h2> $350 </h2>
+              <h2> Condition: New </h2>
+            </div>
+            <div class="grid-item">
+              <h1> Under Armour Fade RST </h1>
+              <img src="images/Shoe4.png" alt = "Under Armour Fade RST">
+              <h2> $200 </h2>
+              <h2> Condition: Well Worn </h2>
+            </div>
+            <div class="grid-item">
+              <h1> Perry Brown Cot </h1>
+              <img src="images/Shoe5.png" alt = "Perry Brown Cot">
+              <h2> $150 </h2>
+              <h2> Condition: Stock </h2>
+            </div>
+            <div class="grid-item">
+              <h1> Nike Air Zoom </h1>
+              <img src="images/Shoe6.png" alt = "Nike Air Zoom">
+              <h2> $390 </h2>
+              <h2> Condition: Stock </h2>
+            </div>
+          </div>
+        </div>
+    </article>
+    <footer>
+      <p> 2019 InSole | All Pictures taken from their respective sources </p>
+    </footer>
+</html>
